@@ -85,7 +85,7 @@ AC_HEADER_STAT
 # Checks for typedefs, structures, and compiler characteristics.
 # ==============================================================
 
-AM_C_PROTOTYPES
+dnl AM_C_PROTOTYPES
 AC_C_CONST
 AC_TYPE_UID_T     dnl This checks for gid_t too.
 dnl AC_CHECK_TYPES([ssize_t])
